@@ -1,4 +1,4 @@
-name: Build Release and Upload to TestFlight (iOS)
+read write permission name: Build Release and Upload to TestFlight (iOS)
 
 on:
   push:
