@@ -23,5 +23,54 @@ Read and write permission for floreskain4-web/BlueWallet{
     "babel.config.js",
     "jest.config.js",
     "**/Pods"
-  ]https://urban-barnacle-jr47wxjrw74735g9j.github.dev/https://cloud.ibm.com/docs/codeengine?topic=codeengine-app-source-code&utm_source=chatgpt.com
+  ]{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["es2020"],
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "types": ["jest"],
+    "paths": {}
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    {
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["es2020"],
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "types": ["jest"],
+    "paths": {}
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.jsx"],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "jest.config.js",
+    "**/Pods"
+  ]
+}
 }
